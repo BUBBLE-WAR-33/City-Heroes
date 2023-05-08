@@ -1,0 +1,90 @@
+body{
+    background-image: url(Background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin: 0%;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    width:100%;
+    height: 10%;
+    background-image: url();
+    background-color: rgba(30, 30, 30, 0.4);
+}
+.head h1{
+    text-align: center;
+    font-size: large;
+    font-size: 400%;
+    font-weight: bold;
+    color: aliceblue;
+}
+.mainblock1{
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .mashine{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mashine a img{
+    border-radius: 5% 5%;
+    text-align: center; 
+}
+.first_with_mashine{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.first_with_mashine p{
+    border-radius: 50px;
+    width: 60%;
+    padding: 7%;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#p1{
+    background-color: rgba(207, 237, 193, 1);
+}
+#p2{
+    background-color: rgba(255, 158, 158, 1);
+}
+#p3{
+    background-color: rgba(143, 168, 255, 1);
+}
+#webcam-container{
+    
+}
+
+#webcam-wrapper{
+    height: 250px;
+    width: 500px;
+    background-color: grey;
+    border-radius: 10%;
+}
+#label-container{
+    height: 50px;
+    background-color: gray;
+}
+@media screen and (max-width:900px) {
+    .mainblock1{
+        display: block;
+    }
+    
+}
